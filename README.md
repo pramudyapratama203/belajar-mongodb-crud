@@ -94,11 +94,5 @@ db.buku.deleteOne({ judul: "Bumi Manusia" })
 ```js
 db.anggota.createIndex( { email: 1 }, { unique: true } )
 ```
-
-## Konsep Penting Lainnya
-- Flexible Schema
-- Embedded Documents & Arrays
-- Tidak ada trigger bawaan (gunakan Change Streams)
-
----
+--
 Semoga README ini membantu kamu belajar dan mengulang MongoDB dengan lebih mudah! Selamat belajar!
