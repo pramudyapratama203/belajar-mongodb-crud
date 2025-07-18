@@ -94,5 +94,5 @@ db.buku.deleteOne({ judul: "Bumi Manusia" })
 ```js
 db.anggota.createIndex( { email: 1 }, { unique: true } )
 ```
---
+
 Semoga README ini membantu kamu belajar dan mengulang MongoDB dengan lebih mudah! Selamat belajar!
