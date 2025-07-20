@@ -51,7 +51,7 @@ MongoDB adalah database NoSQL berorientasi dokumen (document-oriented). Berbeda 
 - Tambahkan path ke variabel lingkungan `Path`.
 
 ## Memulai dengan mongosh
-- Jalankan CMD baru dan ketik `mongosh`.
+- Jalankan CMD baru dan ketik `mongosh`. Jika gagal, silahkan buat baru di new environments windows
 - Gunakan database:  
   ```js
   use perpustakaanDigital
