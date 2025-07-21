@@ -136,7 +136,7 @@ db.buku.deleteOne({ judul: "The Alchemist" })
 // Menghapus banyak dokumen (misal: yang tidak tersedia dan stok 0)
 db.buku.deleteMany({ tersedia: false, stok: 0 })
 
-// HATI-HATI! Menghapus SEMUA dokumen di koleksi
+// HATI-HATI! Menghapus SEMUA dokumen di koleksi. Jika ingin melakukan deleteMany(), lebih baik lakukan seperti di atas
 db.buku.deleteMany({})
 ```
 
