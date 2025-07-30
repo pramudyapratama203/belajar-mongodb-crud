@@ -106,7 +106,19 @@ db.buku.find({ genre: "Filosofi" }) // Buku yang memiliki genre "Filosofi" (bisa
 // Mencari satu dokumen pertama yang cocok
 db.buku.findOne({ judul: "Filosofi Teras" })
 ```
-
+### MongoDB Query Operators
+1. $eq: Values are equal
+2. $ne: Values are not equal
+3. $gt: Value is greater than another value
+4. $gte: Value is greater than or equal to another value
+5. $lt: Value is less than another value
+6. $lte: Value is less than or equal to another value
+7. $in: Value is matched within an array
+8. $and: Returns documents where both queries match
+9. $or: Returns documents where either query matches
+10. $nor: Returns documents where both queries fail to match
+11. $not: Returns documents where the query does not match
+    
 ### U: Update (Memperbarui Data)
 ```js
 // Mengubah satu dokumen: ubah tahunTerbit dan tambahkan rating
