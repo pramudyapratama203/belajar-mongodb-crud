@@ -133,9 +133,9 @@ db.buku.updateOne(
   { $inc: { stok: -1 } }
 )
 
-// Mengubah banyak dokumen: semua buku dengan stok <= 5 menjadi tidak tersedia
+// Mengubah banyak dokumen: semua buku dengan stok <= 1 menjadi tidak tersedia
 db.buku.updateMany(
-  { stok: { $lte: 5 } }, // $lte = less than or equal to
+  { stok: { $lte: 1 } }, // $lte = less than or equal to
   { $set: { tersedia: false } }
 )
 ```
