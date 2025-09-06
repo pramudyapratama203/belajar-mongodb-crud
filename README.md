@@ -10,7 +10,7 @@ Repository ini adalah catatan dan panduan praktis untuk belajar dasar-dasar Mong
   - MongoDB Shell (mongosh)
 - Memulai dengan mongosh
 - Operasi CRUD Dasar
-  - C: Create (Menambahkan Data)
+  - C: Create (Membuat Data)
   - R: Read (Melihat Data)
   - U: Update (Memperbarui Data)
   - D: Delete (Menghapus Data)
