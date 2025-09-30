@@ -35,7 +35,8 @@ MongoDB adalah database NoSQL berorientasi dokumen (document-oriented). Berbeda 
   "hobi": ["membaca", "bersepeda"],
   "alamat": {
     "jalan": "Jl. Merdeka No. 10",
-    "kota": "Surabaya"
+    "kota": "Surabaya",
+    "provinsi": "Jawa Timur"
   }
 }
 ```
