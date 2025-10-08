@@ -1,7 +1,7 @@
 
 # Belajar MongoDB Dasar
 
-Repository ini adalah catatan dan panduan praktis untuk belajar dasar-dasar MongoDB, khususnya bagi yang sudah familiar dengan konsep database relasional seperti MySQL.
+Repository ini adalah catatan dan panduan praktis untuk belajar dasar-dasar MongoDB, khususnya bagi yang sudah familiar dengan konsep dasar database relasional seperti MySQL.
 
 ## Daftar Isi
 - Pengantar MongoDB
